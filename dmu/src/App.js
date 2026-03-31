@@ -10,7 +10,7 @@ const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
   // 👇 아시아(싱가포르) 리전을 선택하셨으므로 databaseURL이 반드시 필요합니다!
-  databaseURL: "https://dmus-3ecf2-default-rtdb.asia-southeast1.firebasedatabase.app",
+databaseUR:process.env.REACT_APP_FIREBASE_URL,
   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
