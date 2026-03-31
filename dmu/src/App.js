@@ -4,7 +4,7 @@ import { getDatabase, ref, onValue, runTransaction } from 'firebase/database';
 import './App.css';
 import QUIZ_BANK from './question.json';
 
-// --- Firebase 설정 ---
+// --- Firebase 설정 ---dd
 // 주의: .env 파일에 아래 변수들이 잘 들어있는지 꼭 확인하세요!
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
