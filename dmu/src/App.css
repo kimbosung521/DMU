@@ -310,11 +310,13 @@ body {
 
 .result-msg {
   text-align: center;
-  font-size: 18;
+  font-size: 17px;
   font-weight: 800;
   color: #1a1a2e;
   margin-bottom: 20px;
   line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .gift-box {

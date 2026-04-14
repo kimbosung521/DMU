@@ -423,19 +423,6 @@
   },
   {
     "type": "mc",
-    "difficulty": "medium",
-    "question": "취업지원센터 프로그램 참여 절차로 올바른 것은?",
-    "options": [
-      "① DO IT 홈페이지 신청 → ② 프로그램 참여",
-      "① 담당 교수 추천 → ② 학생처 제출 → ③ 참여",
-      "① 당일 현장 접수 → ② 바로 참여",
-      "① 전화 신청 → ② 담당자 승인 → ③ 참여"
-    ],
-    "answer": 0,
-    "explanation": "DO IT 홈페이지를 통해 사전 신청 후 프로그램에 참여할 수 있습니다."
-  },
-  {
-    "type": "mc",
     "difficulty": "hard",
     "question": "STAR 기법에서 'Result'를 효과적으로 서술하기 위한 방법으로 가장 적절한 것은?",
     "options": [
