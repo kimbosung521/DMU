@@ -15,12 +15,14 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 200, 0, 0.15);
-    border: 1px solid rgba(255, 200, 0, 0.3);
+    background: white;
+    display: flex;
+    /* border: 1px solid rgba(255, 200, 0, 0.3); */
     border-radius: 20px;
     padding: 6px 16px;
     margin-bottom: 20px;
     z-index: 1;
+    box-shadow: 0 5px 10px rgba(160, 126, 126, 0.4);
 }
 
 .school-badge span {
@@ -34,10 +36,10 @@ body {
     background: rgba(255, 255, 255, 0.97);
     border-radius: 20px;
     width: 100%;
-    
+
     max-width: 400px;
     padding: 28px 24px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px rgba(160, 126, 126, 0.4);
     animation: fadeIn 0.35s ease;
     z-index: 1;
 }
@@ -46,7 +48,6 @@ body {
 .start-icon {
     width: 72px;
     height: 72px;
-    background: linear-gradient(135deg, #1a3a6b, #2a5ab0);
     border-radius: 18px;
     display: flex;
     align-items: center;
@@ -100,7 +101,7 @@ body {
 .btn-retry {
     width: 100%;
     padding: 16px;
-    background: linear-gradient(135deg, #1a3a6b, #2a5ab0);
+    background: #4571b5;
     color: white;
     border: none;
     border-radius: 14px;
@@ -122,7 +123,7 @@ body {
 .btn-next {
     margin-top: 14px;
     padding: 14px;
-    background: #1a3a6b;
+    background: #667bf2;
     font-size: 16px;
     border-radius: 12px;
 }

@@ -3,6 +3,8 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue, runTransaction } from 'firebase/database';
 import './App.css';
 import QUIZ_BANK from './question.json';
+import dmuChar from './dmuChar2.png';
+import dmuLogo from './dmuLogo2.png';
 
 // --- Firebase 설정 ---dd
 // 주의: .env 파일에 아래 변수들이 잘 들어있는지 꼭 확인하세요!
@@ -10,7 +12,7 @@ const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
   // 👇 아시아(싱가포르) 리전을 선택하셨으므로 databaseURL이 반드시 필요합니다!
-databaseUR:process.env.REACT_APP_FIREBASE_URL,
+  databaseUR: process.env.REACT_APP_FIREBASE_URL,
   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
@@ -116,7 +118,7 @@ function App() {
   // --- 화면 렌더링 함수들 ---
   const renderStart = () => (
     <>
-      <div className="start-icon">🎯</div>
+      <div className="start-icon"><img src={dmuChar} style={{ width: "80px", height: "80px" }} /></div>
       <div className="start-title">취업 상식 퀴즈</div>
       <div className="start-sub">취업지원센터에서 준비한 특별 퀴즈!</div>
       <button className="btn-start" onClick={startQuiz}>퀴즈 시작하기</button>
@@ -204,12 +206,14 @@ function App() {
       justifyContent: 'center',
       alignItems: 'center',
       minHeight: "100vh",
-      background: 'linear-gradient(160deg, #1a3a6b 0%, #0f2447 50%, #0a1a35 100%)',
+      // background: 'linear-gradient(160deg, #1a3a6b 0%, #0f2447 50%, #0a1a35 100%)',
+      backgroundColor: '#2e4893',
       padding: '24px'
     }}>
 
       <div className="school-badge">
-        <span>🎓 동양미래대학교 취업지원센터</span>
+        <img src={dmuLogo} style={{ width: "45px", height: "25px" }} />
+        <div style={{ fontWeight: "600", fontSize: "15px", marginLeft: "-5px" }}>취업지원센터</div>
       </div>
 
       <div className="card">
