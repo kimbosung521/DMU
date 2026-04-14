@@ -96,9 +96,7 @@ function App() {
 
     if (picked.length < QUESTIONS_PER_ROUND) {
       const usedSet = new Set(picked);
-      const remainPool = shuffle(
-        [...mc, ...ox].filter((q) => !usedSet.has(q)),
-      );
+      const remainPool = shuffle([...mc, ...ox].filter((q) => !usedSet.has(q)));
       picked.push(...remainPool.slice(0, QUESTIONS_PER_ROUND - picked.length));
     }
 
