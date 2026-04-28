@@ -29,8 +29,11 @@ try {
 }
 
 const QUESTIONS_PER_ROUND = 5;
-const MC_COUNT = 2;
-const OX_COUNT = 2;
+const QUESTION_QUOTA = {
+  수리: 1,
+  언어: 1,
+  취업: 3,
+};
 const PARTICIPANT_COUNT_KEY_PREFIX = "quiz_participated";
 
 // 배열 셔플용 유틸 함수
@@ -71,33 +74,33 @@ function App() {
 
   // 2. 퀴즈 시작 (여기서는 참여자 수를 올리지 않습니다)
   const startQuiz = async () => {
-    const mc = QUIZ_BANK.filter((q) => q.type === "mc");
-    const ox = QUIZ_BANK.filter((q) => q.type === "ox");
-    const hardPool = QUIZ_BANK.filter(
-      (q) => (q.type === "mc" || q.type === "ox") && q.difficulty === "hard",
-    );
-
-    const hardQuestion = shuffle(hardPool)[0] || null;
     const picked = [];
+    const usedQuestions = new Set();
 
-    if (hardQuestion) {
-      picked.push(hardQuestion);
-    }
+    Object.entries(QUESTION_QUOTA).forEach(([category, count]) => {
+      const categoryPool = shuffle(
+        QUIZ_BANK.filter(
+          (q) => q.category === category && !usedQuestions.has(q),
+        ),
+      );
 
-    const mcCandidates = hardQuestion
-      ? mc.filter((q) => q !== hardQuestion)
-      : mc;
-    const oxCandidates = hardQuestion
-      ? ox.filter((q) => q !== hardQuestion)
-      : ox;
-
-    picked.push(...shuffle(mcCandidates).slice(0, MC_COUNT));
-    picked.push(...shuffle(oxCandidates).slice(0, OX_COUNT));
+      categoryPool.slice(0, count).forEach((question) => {
+        picked.push(question);
+        usedQuestions.add(question);
+      });
+    });
 
     if (picked.length < QUESTIONS_PER_ROUND) {
-      const usedSet = new Set(picked);
-      const remainPool = shuffle([...mc, ...ox].filter((q) => !usedSet.has(q)));
-      picked.push(...remainPool.slice(0, QUESTIONS_PER_ROUND - picked.length));
+      const remainPool = shuffle(
+        QUIZ_BANK.filter((q) => !usedQuestions.has(q)),
+      );
+
+      remainPool
+        .slice(0, QUESTIONS_PER_ROUND - picked.length)
+        .forEach((question) => {
+          picked.push(question);
+          usedQuestions.add(question);
+        });
     }
 
     const finalPicked = shuffle(picked).slice(0, QUESTIONS_PER_ROUND);
@@ -238,7 +241,7 @@ function App() {
             <div
               className={`feedback-box ${isCorrect ? "correct-fb" : "wrong-fb"}`}
             >
-              {isCorrect ? "✅ 정답입니다!" : "❌ 오답입니다!"}
+              {isCorrect ? " 정답입니다!" : "❌ 오답입니다!"}
               <br />
               {q.explanation}
             </div>
@@ -277,7 +280,7 @@ function App() {
               <br />
               취업지원센터 부스로 오셔서
               <br />
-              도장을 받아가세요
+              도장 받아가세요
             </>
           ) : (
             <>아쉽지만, 다시 도전해 보시겠어요?</>
