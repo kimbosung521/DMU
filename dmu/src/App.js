@@ -58,6 +58,7 @@ function App() {
   const [score, setScore] = useState(0);
   const [answered, setAnswered] = useState(false);
   const [selectedVal, setSelectedVal] = useState(null);
+  const [fillInput, setFillInput] = useState("");
   const [userAnswers, setUserAnswers] = useState([]);
   const [participantsCount, setParticipantsCount] = useState(0);
 
@@ -111,17 +112,35 @@ function App() {
     setUserAnswers([]);
     setAnswered(false);
     setSelectedVal(null);
+    setFillInput("");
     setGameState("QUIZ");
   };
 
   // 3. 정답 선택 로직
   const handleSelectAnswer = (selected) => {
     if (answered) return;
+
+    const q = currentQuestions[currentIndex];
+
     setAnswered(true);
     setSelectedVal(selected);
 
-    const q = currentQuestions[currentIndex];
-    const isCorrect = selected === q.answer;
+    let isCorrect = false;
+    if (q.type === "fill") {
+      const normalize = (value) =>
+        String(value ?? "")
+          .trim()
+          .replace(/\s+/g, " ")
+          .toLowerCase();
+
+      const normalizedInput = normalize(selected);
+      const acceptableAnswers = [q.answer, ...(q.acceptVariants || [])].map(
+        normalize,
+      );
+      isCorrect = acceptableAnswers.includes(normalizedInput);
+    } else {
+      isCorrect = selected === q.answer;
+    }
 
     if (isCorrect) setScore((prev) => prev + 1);
 
@@ -131,6 +150,11 @@ function App() {
     ]);
   };
 
+  const handleSubmitFill = () => {
+    if (!fillInput.trim() || answered) return;
+    handleSelectAnswer(fillInput);
+  };
+
   // 4. 다음 문제 또는 결과 화면으로 이동
   const nextQuestion = () => {
     if (currentIndex < currentQuestions.length - 1) {
@@ -138,6 +162,7 @@ function App() {
       setCurrentIndex((prev) => prev + 1);
       setAnswered(false);
       setSelectedVal(null);
+      setFillInput("");
     } else {
       // 🌟 마지막 문제를 풀고 결과 화면으로 넘어갈 때 참여자 수 +1
       setGameState("RESULT");
@@ -176,7 +201,20 @@ function App() {
 
   const renderQuiz = () => {
     const q = currentQuestions[currentIndex];
-    const isCorrect = selectedVal === q.answer;
+    let isCorrect = false;
+    if (q.type === "fill") {
+      const normalize = (value) =>
+        String(value ?? "")
+          .trim()
+          .replace(/\s+/g, " ")
+          .toLowerCase();
+      const acceptableAnswers = [q.answer, ...(q.acceptVariants || [])].map(
+        normalize,
+      );
+      isCorrect = acceptableAnswers.includes(normalize(selectedVal));
+    } else {
+      isCorrect = selectedVal === q.answer;
+    }
 
     return (
       <>
@@ -187,7 +225,11 @@ function App() {
           <span
             className={`quiz-type-badge ${q.type === "mc" ? "badge-mc" : "badge-ox"}`}
           >
-            {q.type === "mc" ? "사지선다" : "O / X"}
+            {q.type === "mc"
+              ? "사지선다"
+              : q.type === "ox"
+                ? "O / X"
+                : "주관식"}
           </span>
         </div>
 
@@ -213,7 +255,7 @@ function App() {
               );
             })}
           </div>
-        ) : (
+        ) : q.type === "ox" ? (
           <div className="options-grid ox">
             {["O", "X"].map((label, i) => {
               const val = label === "O" ? true : false;
@@ -233,6 +275,40 @@ function App() {
                 </button>
               );
             })}
+          </div>
+        ) : (
+          <div
+            style={{
+              display: "flex",
+              gap: "8px",
+              alignItems: "center",
+              marginTop: "12px",
+            }}
+          >
+            <input
+              type="text"
+              value={fillInput}
+              onChange={(e) => setFillInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSubmitFill();
+              }}
+              placeholder={q.hintText || "정답을 입력하세요"}
+              disabled={answered}
+              style={{
+                flex: 1,
+                padding: "12px",
+                borderRadius: "10px",
+                border: "1px solid #cbd5e1",
+                fontSize: "16px",
+              }}
+            />
+            <button
+              className="option-btn"
+              onClick={handleSubmitFill}
+              disabled={answered || !fillInput.trim()}
+            >
+              제출
+            </button>
           </div>
         )}
 

@@ -78,13 +78,6 @@
   },
   {
     "type": "ox",
-    "question": "반도체는 종이에도 사용된다.",
-    "answer": false,
-    "explanation": "반도체는 스마트폰, 자동차, 냉장고 등 전자기기에 사용되며 종이에는 사용되지 않습니다.",
-    "category": "취업"
-  },
-  {
-    "type": "ox",
     "question": "전기차의 핵심 요소는 배터리이다.",
     "answer": true,
     "explanation": "배터리는 전기차의 동력원으로 핵심 요소입니다.",
@@ -144,13 +137,6 @@
     "question": "20문제 중 15문제를 맞추면 정답률은 80%이다.",
     "answer": false,
     "explanation": "15 ÷ 20 × 100 = 75%입니다.",
-    "category": "수리"
-  },
-  {
-    "type": "ox",
-    "question": "0.6은 0.55보다 크다.",
-    "answer": true,
-    "explanation": "0.6 > 0.55이므로 옳습니다.",
     "category": "수리"
   },
   {
@@ -560,13 +546,13 @@
     "acceptVariants": ["모의면접", "모의 면접"],
     "hintText": "네 글자로 입력하세요",
     "explanation": "모의면접은 실제 면접 환경과 유사하게 연습할 수 있는 취업지원센터의 주요 프로그램입니다.",
-    "category": "언어"
+    "category": "취업"
   },
   {
     "type": "fill",
     "question": "취업지원센터 프로그램에 참여하려면 ( ) 홈페이지를 통해 사전에 신청해야 한다.",
     "answer": "DO IT",
-    "acceptVariants": ["DO IT", "do it", "DOIT", "doit"],
+    "acceptVariants": ["DO IT", "do it", "DOIT", "doit", "두잇", "두 잇"],
     "hintText": "홈페이지 이름을 입력하세요",
     "explanation": "DO IT 홈페이지를 통해 사전 신청 후 프로그램에 참여할 수 있습니다.",
     "category": "취업"
@@ -1837,7 +1823,7 @@
   },
   {
     "type": "fill",
-    "question": "기업에서 직원을 새로 뽑는 과정을 두 글자로 ( )(이)라고 한다.",
+    "question": "기업에서 직원을 새로 뽑는 과정을 두 글자로 \n ( )(이)라고 한다.",
     "answer": "채용",
     "acceptVariants": ["채용"],
     "hintText": "두 글자로 입력하세요",
