@@ -808,5 +808,1242 @@
     "hintText": "영어로 입력하세요",
     "explanation": "STAR 기법에서 T는 Task(과제)를 의미하며, 주어진 상황에서 해결해야 할 역할을 설명합니다.",
     "category": "언어"
+  },
+  {
+    "type": "ox",
+    "question": "NCS는 '국가직무능력표준'의 약자이다.",
+    "answer": true,
+    "explanation": "NCS(National Competency Standards)는 산업현장에서 필요한 직무능력을 표준화한 것입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "면접에서 모르는 질문을 받으면 끝까지 아는 척을 하는 것이 좋다.",
+    "answer": false,
+    "explanation": "모르는 부분은 솔직히 인정하고 배우려는 의지를 보이는 것이 정직성 점수에서 유리합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "SaaS는 소프트웨어를 설치 없이 클라우드를 통해 이용하는 서비스 모델이다.",
+    "answer": true,
+    "explanation": "Software as a Service의 약자로, 브라우저 등을 통해 바로 쓰는 서비스를 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "ESG 경영에서 G는 '지배구조(Governance)'를 의미한다.",
+    "answer": true,
+    "explanation": "ESG는 환경(E), 사회(S), 지배구조(G)의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "수열 1, 2, 4, 7, 11의 다음 숫자는 15이다.",
+    "answer": false,
+    "explanation": "차이가 1, 2, 3, 4로 늘어나므로 다음 숫자는 16입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "'지양하다'는 어떤 목표를 향해 나아간다는 뜻이다.",
+    "answer": false,
+    "explanation": "'지양하다'는 피하거나 하지 않는다는 뜻이며, 목표를 향하는 것은 '지향하다'입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "ox",
+    "question": "워라밸(Work-Life Balance)은 일과 삶의 균형을 뜻한다.",
+    "answer": true,
+    "explanation": "업무와 개인 생활의 적절한 균형을 의미하는 신조어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "사물인터넷(IoT) 기술은 가전제품에만 적용된다.",
+    "answer": false,
+    "explanation": "산업 현장, 도시 인프라, 자동차 등 인터넷이 연결된 모든 사물에 적용됩니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '어의없다'가 올바른 표현이다.",
+    "answer": false,
+    "explanation": "'어처구니가 없다'는 뜻의 표준어는 '어이없다'입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "ox",
+    "question": "분수 1/4은 소수로 0.25이다.",
+    "answer": true,
+    "explanation": "1을 4로 나누면 0.25가 맞습니다.",
+    "category": "수리"
+  },
+  {
+    "type": "mc",
+    "question": "비즈니스 이메일에서 'CC'의 의미는?",
+    "options": ["비밀번호", "참조", "회신", "전달"],
+    "answer": 1,
+    "explanation": "Carbon Copy의 약자로 관련자에게 정보를 공유하는 '참조'를 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '4차 산업혁명'의 핵심 기술이 아닌 것은?",
+    "options": ["인공지능", "빅데이터", "증기기관", "사물인터넷"],
+    "answer": 2,
+    "explanation": "증기기관은 1차 산업혁명의 유산입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "물건 가격 8,000원에서 25% 할인을 하면 최종 가격은?",
+    "options": ["5,500원", "6,000원", "6,500원", "7,000원"],
+    "answer": 1,
+    "explanation": "8,000 * 0.75 = 6,000원입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "mc",
+    "question": "기업이 자금 조달을 위해 주식을 처음 공개하는 절차는?",
+    "options": ["M&A", "IPO", "CEO", "R&D"],
+    "answer": 1,
+    "explanation": "IPO(Initial Public Offering)는 기업공개를 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '구축하다'와 의미가 가장 가까운 것은?",
+    "options": ["파괴하다", "조성하다", "방치하다", "해체하다"],
+    "answer": 1,
+    "explanation": "체제나 시설을 새로 만드는 '조성하다'와 유사합니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "NCS 직업기초능력 중 '팀워크'가 속하는 영역은?",
+    "options": ["수리능력", "대인관계능력", "자기개발능력", "정보능력"],
+    "answer": 1,
+    "explanation": "팀워크와 갈등 관리는 대인관계능력에 포함됩니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 성격이 다른 단어는?",
+    "options": ["모니터", "키보드", "마우스", "운영체제"],
+    "answer": 3,
+    "explanation": "운영체제는 소프트웨어이고 나머지는 하드웨어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "시속 60km로 2시간 30분을 달리면 총 이동 거리는?",
+    "options": ["120km", "130km", "150km", "180km"],
+    "answer": 2,
+    "explanation": "60km * 2.5시간 = 150km입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '결재'가 올바르게 쓰인 문장은?",
+    "options": [
+      "카드 결재가 완료되었습니다.",
+      "서류 결재를 올렸습니다.",
+      "비용을 결재했습니다.",
+      "현금으로 결재합니다."
+    ],
+    "answer": 1,
+    "explanation": "상사가 안건을 승인하는 것은 '결재', 대금을 치르는 것은 '결제'입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "기업의 이윤 추구 외에 사회적 책임을 강조하는 용어는?",
+    "options": ["CSR", "B2B", "KPI", "OSMU"],
+    "answer": 0,
+    "explanation": "CSR(Corporate Social Responsibility)은 기업의 사회적 책임을 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "자신의 강점(S), 약점(W), 기회(O), 위협(T)을 분석하는 도구는?",
+    "answer": "SWOT",
+    "acceptVariants": ["swot", "스왓"],
+    "hintText": "영어 약자로 입력하세요",
+    "explanation": "마케팅이나 자기 분석에 쓰이는 SWOT 분석법입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "컴퓨터 네트워크에서 데이터 전송의 최소 단위를 ( )(이)라고 한다.",
+    "answer": "패킷",
+    "acceptVariants": ["packet"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "데이터를 잘게 나눈 전송 단위를 패킷이라 합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "수열 2, 6, 18, 54의 다음 숫자는?",
+    "answer": "162",
+    "acceptVariants": ["162"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "3씩 곱해지는 등비수열입니다. 54 * 3 = 162입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "'결실을 ( )'에서 빈칸에 들어갈 알맞은 동사는?",
+    "answer": "맺다",
+    "acceptVariants": ["맺다"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "노력의 대가를 얻을 때 '결실을 맺다'라고 합니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "회사 내에서 직무를 수행하는 데 필요한 핵심 성과 지표를 ( )라고 한다.",
+    "answer": "KPI",
+    "acceptVariants": ["kpi"],
+    "hintText": "영어 약자 3글자로 입력하세요",
+    "explanation": "Key Performance Indicator의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "반경 10m인 원의 넓이를 구할 때 필요한 원주율의 근삿값은 보통 ( )이다.",
+    "answer": "3.14",
+    "acceptVariants": ["3.14"],
+    "hintText": "소수점 둘째 자리까지 입력하세요",
+    "explanation": "원주율 파이(π)의 일반적인 근삿값입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "'어떤 일이 아주 쉬움'을 뜻하는 사자성어는 ( )지간이다.",
+    "answer": "식은죽먹기",
+    "acceptVariants": ["식은죽먹기", "여반장"],
+    "hintText": "다섯 글자로 입력하세요",
+    "explanation": "관용어로는 식은 죽 먹기, 한자로는 여반장이 있습니다.",
+    "category": "언어"
+  },
+  {
+    "type": "ox",
+    "question": "유니콘 기업은 기업 가치가 1조 원 이상인 비상장 스타트업을 말한다.",
+    "answer": true,
+    "explanation": "상장하지 않았음에도 거대 가치를 지닌 기업을 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 'MZ세대'에 포함되지 않는 연령대는?",
+    "options": ["밀레니얼 세대", "Z세대", "베이비붐 세대", "모두 포함"],
+    "answer": 2,
+    "explanation": "베이비붐 세대는 MZ세대보다 이전 세대입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "A가 2일 만에 끝내는 일을 B는 6일이 걸린다. 둘이 같이 하면 ( )일이 걸린다.",
+    "answer": "1.5",
+    "acceptVariants": ["1.5", "1.5일"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "1/2 + 1/6 = 4/6 = 2/3. 역수 취하면 1.5일입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "면접 시 복장은 무조건 검정 정장이어야만 한다.",
+    "answer": false,
+    "explanation": "최근에는 기업 문화에 따라 비즈니스 캐주얼이나 자율 복장도 권장됩니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '고수하다'의 뜻으로 가장 적절한 것은?",
+    "options": ["버리다", "굳게 지키다", "가르치다", "높이 솟다"],
+    "answer": 1,
+    "explanation": "원칙이나 의견을 굳게 지킨다는 의미입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "주식 시장에서 주가가 하락할 때 나타나는 그래프의 색깔은 ( )색이다.",
+    "answer": "파란",
+    "acceptVariants": ["파란", "파랑", "파란색"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "한국 증시 기준으로 상승은 빨강, 하락은 파랑입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "데이터를 분석하여 유의미한 정보를 추출하는 전문가를 데이터 사이언티스트라고 한다.",
+    "answer": true,
+    "explanation": "빅데이터 시대의 핵심 직군 중 하나입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "1에서 100까지의 숫자 중 7의 배수는 몇 개인가?",
+    "options": ["13개", "14개", "15개", "16개"],
+    "answer": 1,
+    "explanation": "100 / 7 = 14.28... 이므로 14개입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "서로 다른 두 업체가 손을 잡고 공동 마케팅을 펼치는 것을 ( ) 마케팅이라 한다.",
+    "answer": "콜라보",
+    "acceptVariants": ["콜라보", "협업", "콜라보레이션"],
+    "hintText": "세 글자로 입력하세요",
+    "explanation": "Collaboration에서 유래한 용어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '금새'가 '금방'의 의미로 올바른 표기이다.",
+    "answer": false,
+    "explanation": "'금방'을 뜻하는 올바른 표기는 '금세'입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 면접에서 '자기소개'를 할 때 가장 피해야 할 행동은?",
+    "options": [
+      "성과 수치 활용",
+      "결론부터 말하기",
+      "과도한 거짓말",
+      "지원 동기 연결"
+    ],
+    "answer": 2,
+    "explanation": "거짓말은 꼬리 질문에서 드러날 확률이 높으며 신뢰도를 떨어뜨립니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "인터넷 주소창에 직접 입력하는 숫자로 된 주소를 ( ) 주소라고 한다.",
+    "answer": "IP",
+    "acceptVariants": ["ip", "아이피"],
+    "hintText": "영어 약자로 입력하세요",
+    "explanation": "Internet Protocol의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "컴퓨터의 뇌 역할을 하며 연산 처리를 담당하는 핵심 부품은 CPU이다.",
+    "answer": true,
+    "explanation": "Central Processing Unit의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 성격이 다른 하나는?",
+    "options": ["파이썬", "자바", "C언어", "엑셀"],
+    "answer": 3,
+    "explanation": "엑셀은 응용 프로그램이며 나머지는 프로그래밍 언어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "어떤 수에 5를 곱하고 3을 더했더니 23이 되었다. 어떤 수는?",
+    "answer": "4",
+    "acceptVariants": ["4", "네"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "(23 - 3) / 5 = 4입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "NCS 문제 풀이 시 모든 문제를 순서대로 푸는 것이 가장 효율적이다.",
+    "answer": false,
+    "explanation": "쉬운 문제부터 풀고 어려운 문제는 넘기는 것이 시간 관리 전략입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '우선순위'를 결정할 때 고려해야 할 요소가 아닌 것은?",
+    "options": ["긴급도", "중요도", "재미도", "난이도"],
+    "answer": 2,
+    "explanation": "업무 효율을 위해서는 긴급도와 중요도가 가장 우선되어야 합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "웹사이트에서 사용자의 이용 정보를 저장하는 작은 파일을 ( )(이)라고 한다.",
+    "answer": "쿠키",
+    "acceptVariants": ["cookie"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "브라우저에 저장되는 방문 기록 등을 쿠키라고 합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '바램'이 '바라다'의 명사형으로 올바른 표기이다.",
+    "answer": false,
+    "explanation": "'바라다'의 명사형은 '바람'입니다. (색이 바래는 것만 바램)",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 기업의 채용 절차가 아닌 것은?",
+    "options": ["서류 전형", "인적성 검사", "면접 전형", "수강 신청"],
+    "answer": 3,
+    "explanation": "수강 신청은 학교 학사 일정입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "10% 소금물 200g에 들어있는 소금의 양은 ( )g이다.",
+    "answer": "20",
+    "acceptVariants": ["20"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "200 * 0.1 = 20g입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "면접은 회사만 지원자를 평가하는 자리가 아니라, 지원자도 회사를 확인하는 자리이다.",
+    "answer": true,
+    "explanation": "서로의 적합성을 확인하는 양방향 소통의 과정입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '유연근무제'에 해당하지 않는 것은?",
+    "options": ["시차출퇴근제", "재택근무제", "선택근무제", "고정잔업제"],
+    "answer": 3,
+    "explanation": "고정잔업제는 근무 시간의 유연함과는 거리가 멉니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "주로 소프트웨어나 서비스가 정식 출시 전 오류를 찾기 위해 진행하는 테스트를 ( ) 테스트라고 한다.",
+    "answer": "베타",
+    "acceptVariants": ["beta"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "베타 테스트는 정식 출시 전 사용자 테스팅 단계입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "자기소개서 문장은 길수록 성의 있어 보인다.",
+    "answer": false,
+    "explanation": "핵심 위주로 간결하게 쓰는 것이 가독성과 설득력이 높습니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '추세'와 의미가 가장 가까운 것은?",
+    "options": ["과거", "경향", "결과", "원인"],
+    "answer": 1,
+    "explanation": "어떤 현상이 진행되는 흐름인 '경향'과 유사합니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "2의 10승(2^10)은 얼마인가?",
+    "answer": "1024",
+    "acceptVariants": ["1024"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "컴퓨터 단위에서 자주 쓰이는 숫자로 1,024입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "공공기관 채용 시 학력, 출신지 등을 가리는 방식을 블라인드 채용이라 한다.",
+    "answer": true,
+    "explanation": "직무 능력 중심의 공정한 채용을 위한 제도입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '데이터베이스' 관리 시스템을 뜻하는 용어는?",
+    "options": ["DBMS", "HTML", "HTTP", "URL"],
+    "answer": 0,
+    "explanation": "Database Management System의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "주식에서 가격이 더 이상 내려가지 않도록 버티는 최저 가격선을 ( )선이라 한다.",
+    "answer": "지지",
+    "acceptVariants": ["지지", "지지선"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "반대로 오르지 못하게 막는 선은 저항선입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "'역지사지'는 처지를 바꾸어 생각하라는 뜻이다.",
+    "answer": true,
+    "explanation": "상대방의 입장에서 배려하고 이해하라는 사자성어입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "평균 점수 계산: 80점, 90점, 70점의 평균은?",
+    "options": ["75점", "80점", "85점", "90점"],
+    "answer": 1,
+    "explanation": "(80+90+70) / 3 = 80점입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "기업이나 개인이 자금을 지원하고 대가로 홍보 효과를 얻는 것을 ( )(이)라고 한다.",
+    "answer": "스폰서",
+    "acceptVariants": ["스폰서", "후원"],
+    "hintText": "세 글자로 입력하세요",
+    "explanation": "스포츠나 문화 예술 분야에서 자주 쓰이는 용어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "가상 현실(VR)과 증강 현실(AR)을 합친 개념을 혼합 현실(MR)이라 한다.",
+    "answer": true,
+    "explanation": "현실과 가상 세계를 융합하는 기술입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '효율'의 정의로 가장 적절한 것은?",
+    "options": [
+      "무조건 많이 만드는 것",
+      "투입 대비 산출의 비율",
+      "느리게 꼼꼼히 하는 것",
+      "가장 비싼 것을 고르는 것"
+    ],
+    "answer": 1,
+    "explanation": "적은 비용으로 큰 효과를 내는 것이 효율의 핵심입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "두 수 12와 18의 최대공약수는?",
+    "answer": "6",
+    "acceptVariants": ["6", "여섯"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "12(6*2), 18(6*3)이므로 6입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "'희망'의 반의어는 '절망'이다.",
+    "answer": true,
+    "explanation": "밝은 미래를 바라는 마음의 반대는 모든 희망이 끊긴 절망입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 인공지능이 인간의 언어를 이해하고 생성하는 기술은?",
+    "options": ["NLP", "NFT", "NFC", "NAS"],
+    "answer": 0,
+    "explanation": "Natural Language Processing(자연어 처리)의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "사무용 소프트웨어 묶음을 뜻하는 단어로 MS ( )가 대표적이다.",
+    "answer": "오피스",
+    "acceptVariants": ["오피스", "office"],
+    "hintText": "세 글자로 입력하세요",
+    "explanation": "워드, 엑셀, 파워포인트 등이 포함됩니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "NCS 직업기초능력 중 '직업윤리'는 성실함과 정직함을 포함한다.",
+    "answer": true,
+    "explanation": "공동체 윤리와 직업 양심 등이 포함된 영역입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "0.125를 분수로 나타내면?",
+    "options": ["1/4", "1/6", "1/8", "1/10"],
+    "answer": 2,
+    "explanation": "1 / 8 = 0.125입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "기업이 새로운 제품을 시장에 처음 선보이는 자리를 ( ) 행사라 한다.",
+    "answer": "런칭",
+    "acceptVariants": ["런칭", "론칭"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "Launching에서 온 외래어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '오랫만에'가 올바른 표기이다.",
+    "answer": false,
+    "explanation": "'오래간만'의 준말이므로 '오랜만에'가 맞습니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 프로그래밍에서 조건문을 나타내는 키워드는?",
+    "options": ["if", "for", "while", "print"],
+    "answer": 0,
+    "explanation": "if문은 특정 조건이 맞을 때 코드를 실행합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "어떤 물건을 100원에 사서 120원에 팔면 수익률은 ( )%이다.",
+    "answer": "20",
+    "acceptVariants": ["20"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "(120-100) / 100 * 100 = 20입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "화상 면접 시에는 배경이나 조명은 신경 쓰지 않아도 된다.",
+    "answer": false,
+    "explanation": "깔끔한 배경과 적절한 조명은 지원자의 전문성을 보여주는 요소입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '인프라'의 예시로 적절하지 않은 것은?",
+    "options": ["도로", "철도", "통신망", "점심 메뉴"],
+    "answer": 3,
+    "explanation": "인프라는 사회적 기반 시설을 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "회사 내에서 직위가 높은 사람이 낮은 사람에게 업무를 가르쳐주는 활동을 ( )링이라 한다.",
+    "answer": "멘토",
+    "acceptVariants": ["멘토"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "지도를 주는 쪽은 멘토, 받는 쪽은 멘티입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "'괄목상대'는 눈을 비비고 다시 볼 정도로 발전했다는 뜻이다.",
+    "answer": true,
+    "explanation": "상대의 실력이 급성장했을 때 쓰는 사자성어입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "시속 100km로 45분간 주행했을 때 이동 거리는?",
+    "options": ["65km", "75km", "85km", "95km"],
+    "answer": 1,
+    "explanation": "100 * (45/60) = 75km입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "데이터를 시각화하여 한눈에 볼 수 있게 만든 요약판을 ( )보드라 한다.",
+    "answer": "대시",
+    "acceptVariants": ["대시"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "Dashboard는 핵심 정보를 요약해서 보여줍니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "블록체인 기술은 보안성과 투명성이 핵심 장점이다.",
+    "answer": true,
+    "explanation": "분산 저장 방식을 통해 위변조가 어렵게 설계된 기술입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 문서 편집 프로그램이 아닌 것은?",
+    "options": ["한글", "워드", "노트패드", "크롬"],
+    "answer": 3,
+    "explanation": "크롬은 웹 브라우저입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "수열 1, 3, 6, 10, 15의 다음 숫자는?",
+    "answer": "21",
+    "acceptVariants": ["21"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "더해지는 숫자가 2, 3, 4, 5, 6으로 늘어납니다. 15+6=21.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '왠지'와 '웬지' 중 '왠지'가 올바른 표현이다.",
+    "answer": true,
+    "explanation": "'왜인지'의 준말이므로 '왠지'가 맞습니다. (나머지는 다 '웬')",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '최적화'의 의미로 가장 적절한 것은?",
+    "options": [
+      "가장 예쁘게 만드는 것",
+      "가장 효율적으로 만드는 것",
+      "가장 크게 만드는 것",
+      "가장 비싸게 만드는 것"
+    ],
+    "answer": 1,
+    "explanation": "주어진 조건 하에서 최대 성능을 내게 하는 과정입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "컴퓨터에서 실행 중인 프로그램을 관리하고 자원을 할당하는 핵심 소프트웨어를 ( )라고 한다.",
+    "answer": "OS",
+    "acceptVariants": ["os", "운영체제"],
+    "hintText": "영어 약자 2글자로 입력하세요",
+    "explanation": "Operating System의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "비즈니스 매너에서 상사와 엘리베이터를 탈 때는 상사가 먼저 타는 것이 원칙이다.",
+    "answer": false,
+    "explanation": "일반적으로 안내자가 먼저 타서 버튼을 잡거나, 상사가 나중에 타는 것이 매너입니다. (안내자가 있을 경우)",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "300명의 15%는 몇 명인가?",
+    "options": ["35명", "40명", "45명", "50명"],
+    "answer": 2,
+    "explanation": "300 * 0.15 = 45명입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "기업이 소유한 유무형의 가치 있는 자산을 통틀어 ( )이라고 한다.",
+    "answer": "자산",
+    "acceptVariants": ["자산", "asset"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "현금, 부동산, 지식재산권 등이 포함됩니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "인공지능 서비스인 챗GPT는 생성형 AI의 일종이다.",
+    "answer": true,
+    "explanation": "텍스트를 생성하고 대화하는 Generative AI 모델입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '객관적'의 반대말은?",
+    "options": ["논리적", "주관적", "합리적", "사실적"],
+    "answer": 1,
+    "explanation": "자신의 생각이나 감정이 개입된 것은 주관적입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "1, 2, 4, 8, 16의 다음 숫자는?",
+    "answer": "32",
+    "acceptVariants": ["32"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "2씩 곱해지는 수열입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "직장에서 '유리천장'은 여성이나 소수자의 고위직 승진을 막는 보이지 않는 장벽을 뜻한다.",
+    "answer": true,
+    "explanation": "사회적 차별과 장벽을 비유적으로 표현한 용어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '하드웨어'가 아닌 것은?",
+    "options": ["마우스", "스피커", "웹브라우저", "프린터"],
+    "answer": 2,
+    "explanation": "웹브라우저는 소프트웨어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "사용자가 웹사이트를 이용하며 느끼는 전체적인 경험을 뜻하는 약어는 ( )이다.",
+    "answer": "UX",
+    "acceptVariants": ["ux"],
+    "hintText": "영어 약자 2글자로 입력하세요",
+    "explanation": "User Experience의 약자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "'감언이설'은 달콤한 말로 남을 꾀는 것을 뜻한다.",
+    "answer": true,
+    "explanation": "남의 비위를 맞추거나 속이기 위한 사탕발림 말을 뜻합니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "어떤 일을 4시간 동안 해서 80%를 끝냈다. 다 끝내려면 몇 분 더 해야 하나?",
+    "options": ["30분", "60분", "90분", "120분"],
+    "answer": 1,
+    "explanation": "4시간(240분)이 80%이므로 10%당 30분. 남은 20%는 60분입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "회사에서 공식적으로 업무 협조를 구할 때 보내는 문서를 ( )라고 한다.",
+    "answer": "공문",
+    "acceptVariants": ["공문"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "공공기관이나 기업 간에 주고받는 공식 문서입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "디지털 노마드는 장소에 구애받지 않고 IT 기술을 이용해 일하는 사람을 뜻한다.",
+    "answer": true,
+    "explanation": "유목민(Nomad)처럼 자유롭게 일하는 새로운 형태의 노동자입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '혁신'과 거리가 먼 것은?",
+    "options": ["변화", "개혁", "답습", "창조"],
+    "answer": 2,
+    "explanation": "답습은 예전 방식을 그대로 따르는 것이므로 혁신과 반대됩니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "주식에서 장이 시작할 때 처음 형성된 가격을 ( )라고 한다.",
+    "answer": "시가",
+    "acceptVariants": ["시가"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "반대로 장이 마감할 때 가격은 종가입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "오픈 소스 소프트웨어는 소스 코드를 누구나 볼 수 있고 수정할 수 있다.",
+    "answer": true,
+    "explanation": "리눅스, 안드로이드 등이 대표적인 예시입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "평균 속력 계산: 갈 때 시속 4km, 올 때 시속 6km일 때 전체 평균 속력은?",
+    "options": ["4.8km/h", "5.0km/h", "5.2km/h", "5.4km/h"],
+    "answer": 0,
+    "explanation": "조화평균을 사용하여 (2*4*6)/(4+6) = 4.8입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "특정 분야의 전문 지식을 바탕으로 조언을 해주는 사람을 ( )트라고 한다.",
+    "answer": "컨설턴",
+    "acceptVariants": ["컨설턴트"],
+    "hintText": "네 글자로 입력하세요",
+    "explanation": "Consultant는 문제 해결을 돕는 전문가입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '희안하다'가 올바른 표기이다.",
+    "answer": false,
+    "explanation": "'희한하다'가 올바른 표기입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '데이터 센터'의 주요 역할은?",
+    "options": [
+      "음식 조리",
+      "서버 보관 및 관리",
+      "운동 시설 제공",
+      "버스 운행 관리"
+    ],
+    "answer": 1,
+    "explanation": "방대한 데이터를 처리하는 서버들을 모아둔 시설입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "어떤 숫자의 3배에 10을 빼면 20이다. 이 숫자는?",
+    "answer": "10",
+    "acceptVariants": ["10"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "(20+10) / 3 = 10입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "NCS 직업기초능력 중 '문제해결능력'은 창의적 사고를 포함한다.",
+    "answer": true,
+    "explanation": "비판적, 논리적, 창의적 사고를 통해 문제를 해결하는 능력입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 비즈니스 에티켓으로 옳지 않은 것은?",
+    "options": [
+      "약속 시간 엄수",
+      "명함은 하급자가 먼저 건네기",
+      "상대방 말 경청하기",
+      "회의 중 허락 없이 전화 받기"
+    ],
+    "answer": 3,
+    "explanation": "회의 중 무단 통화는 매우 무례한 행동입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "기업이 파산하지 않고 계속 운영될 것으로 기대되는 상태를 ( ) 기업이라 한다.",
+    "answer": "계속",
+    "acceptVariants": ["계속"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "Going Concern 원칙에 따른 개념입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "'동병상련'은 같은 처지의 사람들끼리 서로 동정함을 뜻한다.",
+    "answer": true,
+    "explanation": "어려운 상황을 겪는 이들끼리 마음을 나누는 사자성어입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "두 주사위를 던졌을 때 합이 12가 될 확률은?",
+    "options": ["1/6", "1/12", "1/18", "1/36"],
+    "answer": 3,
+    "explanation": "(6, 6)인 경우 1가지만 존재하므로 1/36입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "주식이나 가상화폐를 사서 오를 때까지 무조건 버티는 행위를 뜻하는 속어는 ( )이다.",
+    "answer": "존버",
+    "acceptVariants": ["존버"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "비속어에서 유래했으나 널리 쓰이는 투자 용어(?)입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "핀테크(FinTech)는 금융과 기술의 결합을 뜻한다.",
+    "answer": true,
+    "explanation": "Financial과 Technology의 합성어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '협력'의 반대 의미를 가진 단어는?",
+    "options": ["협동", "공조", "대립", "상생"],
+    "answer": 2,
+    "explanation": "서로 의견이나 힘이 맞서서 싸우는 것은 대립입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "어떤 가격의 20%가 4,000원이라면 원래 가격은?",
+    "answer": "20000",
+    "acceptVariants": ["20000", "20,000"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "4,000 / 0.2 = 20,000입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "면접은 보통 첫인상이 결정되는 5분 내에 승부가 난다는 속설이 있다.",
+    "answer": true,
+    "explanation": "첫인상이 중요하므로 도입부의 답변과 태도가 매우 중요합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '모바일 결제' 기술이 아닌 것은?",
+    "options": ["NFC", "MST", "QR코드", "CD-ROM"],
+    "answer": 3,
+    "explanation": "CD-ROM은 과거 저장 매체입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "회사에서 업무상 지출한 비용을 증명하는 종이를 ( )증이라 한다.",
+    "answer": "영수",
+    "acceptVariants": ["영수증"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "비용 청구를 위해 반드시 챙겨야 하는 증빙 서류입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '설령'은 '가령'과 유사한 뜻을 가진다.",
+    "answer": true,
+    "explanation": "둘 다 어떤 가정을 나타낼 때 쓰는 부사입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "5의 3승(5^3)은 얼마인가?",
+    "options": ["25", "75", "125", "150"],
+    "answer": 2,
+    "explanation": "5 * 5 * 5 = 125입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "기존에 있던 것을 고쳐서 새롭게 만드는 것을 ( )신이라 한다.",
+    "answer": "혁",
+    "acceptVariants": ["혁신"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "Innovation을 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "인공지능을 활용한 면접을 'AI 면접'이라 한다.",
+    "answer": true,
+    "explanation": "표정, 음성, 답변 내용을 AI가 분석하여 평가하는 방식입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '직무 기술서(JD)'에 포함되지 않는 정보는?",
+    "options": ["주요 업무", "필요 역량", "우대 사항", "면접관의 고향"],
+    "answer": 3,
+    "explanation": "면접관의 개인 정보는 포함되지 않습니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "수열 100, 50, 25의 다음 숫자는?",
+    "answer": "12.5",
+    "acceptVariants": ["12.5"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "계속해서 1/2로 줄어드는 수열입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "'구사일생'은 죽을 고비를 넘기고 겨우 살아남음을 뜻한다.",
+    "answer": true,
+    "explanation": "아홉 번 죽을 뻔하다가 한 번 살아난다는 뜻입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 웹사이트를 만드는 언어가 아닌 것은?",
+    "options": ["HTML", "CSS", "JavaScript", "SQL"],
+    "answer": 3,
+    "explanation": "SQL은 데이터베이스 관리 언어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "기업에서 직원을 새로 뽑는 과정을 두 글자로 ( )(이)라고 한다.",
+    "answer": "채용",
+    "acceptVariants": ["채용"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "Recruit를 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "연봉 협상 시에는 자신의 성과를 구체적으로 제시하는 것이 유리하다.",
+    "answer": true,
+    "explanation": "데이터 기반의 성과 제시가 설득력을 높여줍니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "15, 20, 25의 최소공배수는?",
+    "options": ["100", "150", "200", "300"],
+    "answer": 3,
+    "explanation": "300은 세 수로 모두 나누어떨어지는 가장 작은 수입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "회사의 이익 중 일부를 주주들에게 나눠주는 것을 ( )이라고 한다.",
+    "answer": "배당",
+    "acceptVariants": ["배당", "배당금"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "주주 환원 정책의 일환입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '금도'는 어떤 한계나 정도를 뜻한다.",
+    "answer": true,
+    "explanation": "어떤 사물이 넘지 말아야 할 선을 뜻하기도 합니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '스마트 시티'의 특징이 아닌 것은?",
+    "options": [
+      "효율적 에너지 사용",
+      "교통 체증 완화",
+      "무조건적인 농사 장려",
+      "데이터 기반 행정"
+    ],
+    "answer": 2,
+    "explanation": "첨단 기술을 통한 도시 문제 해결이 주 목적입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "컴퓨터에서 문서를 프린터로 뽑아내는 일을 ( )라고 한다.",
+    "answer": "인쇄",
+    "acceptVariants": ["인쇄", "프린트"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "출력이나 인쇄로 표현합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "NCS 직업기초능력 중 '자원관리능력'은 시간과 예산을 포함한다.",
+    "answer": true,
+    "explanation": "시간, 예산, 물적자원, 인적자원을 효율적으로 배분하는 능력입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "0.4 * 0.2의 결과는?",
+    "options": ["0.8", "0.08", "0.008", "8.0"],
+    "answer": 1,
+    "explanation": "4/10 * 2/10 = 8/100 = 0.08입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "기업이 부도가 나거나 문을 닫는 상황을 ( )이라고 한다.",
+    "answer": "폐업",
+    "acceptVariants": ["폐업", "파산"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "사업을 그만두는 것을 폐업이라 합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "자기소개서에서 '저는 ~'이라는 말을 반복하는 것은 좋지 않다.",
+    "answer": true,
+    "explanation": "주어를 생략하거나 문장 구조를 다양하게 하는 것이 더 깔끔합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '역량'과 의미가 유사한 것은?",
+    "options": ["실력", "취미", "외모", "주소"],
+    "answer": 0,
+    "explanation": "어떤 일을 해낼 수 있는 힘이나 능력을 뜻합니다.",
+    "category": "언어"
+  },
+  {
+    "type": "fill",
+    "question": "어떤 물건을 500원에 사서 400원에 팔았다면 손실률은 ( )%이다.",
+    "answer": "20",
+    "acceptVariants": ["20"],
+    "hintText": "숫자로 입력하세요",
+    "explanation": "(500-400) / 500 * 100 = 20입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "ox",
+    "question": "워드나 한글 프로그램에서 'Ctrl+Z'는 실행 취소 단축키이다.",
+    "answer": true,
+    "explanation": "이전 작업으로 되돌리는 필수 단축키입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 기업의 '비전'이 뜻하는 것은?",
+    "options": [
+      "회사의 현재 매출",
+      "회사가 추구하는 미래상",
+      "회사의 사옥 위치",
+      "회사의 창립 기념일"
+    ],
+    "answer": 1,
+    "explanation": "기업이 나아가고자 하는 장기적인 목표와 방향을 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "컴퓨터의 보조 기억 장치 중 하나로, 과거 플로피 디스크를 대체한 것은 ( )이다.",
+    "answer": "USB",
+    "acceptVariants": ["usb", "유에스비"],
+    "hintText": "영어 약자 3글자로 입력하세요",
+    "explanation": "현재는 클라우드에 밀려 사용이 줄었으나 한때 필수품이었습니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "'유비무환'은 준비가 있으면 걱정이 없다는 뜻이다.",
+    "answer": true,
+    "explanation": "미리 대비하는 자세의 중요성을 강조하는 사자성어입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "1, 4, 7, 10... 의 수열에서 10번째 숫자는?",
+    "options": ["25", "28", "31", "34"],
+    "answer": 1,
+    "explanation": "일반항 a + (n-1)d = 1 + (9*3) = 28입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "회사의 주인으로서 주식을 보유하고 있는 사람을 ( )라고 한다.",
+    "answer": "주주",
+    "acceptVariants": ["주주"],
+    "hintText": "두 글자로 입력하세요",
+    "explanation": "Stockholder를 뜻합니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "메타버스는 가상 공간에서 현실과 같은 활동을 하는 세계를 뜻한다.",
+    "answer": true,
+    "explanation": "초월(Meta)과 우주(Universe)의 합성어입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "mc",
+    "question": "다음 중 '창의적'인 사고를 방해하는 요소는?",
+    "options": ["호기심", "고정관념", "다양한 경험", "비판적 시각"],
+    "answer": 1,
+    "explanation": "고정관념은 새로운 생각을 가로막는 큰 벽입니다.",
+    "category": "취업"
+  },
+  {
+    "type": "fill",
+    "question": "인터넷 웹사이트의 문을 여는 첫 페이지를 ( )페이지라고 한다.",
+    "answer": "홈",
+    "acceptVariants": ["홈"],
+    "hintText": "한 글자로 입력하세요",
+    "explanation": "메인 페이지 또는 홈페이지라 부릅니다.",
+    "category": "취업"
+  },
+  {
+    "type": "ox",
+    "question": "맞춤법상 '어떻해'가 올바른 표기이다.",
+    "answer": false,
+    "explanation": "'어떻게 해'가 줄어든 '어떡해'가 올바른 표기입니다.",
+    "category": "언어"
+  },
+  {
+    "type": "mc",
+    "question": "어떤 수의 20%를 뺐더니 80이 되었다. 원래 수는?",
+    "options": ["90", "100", "110", "120"],
+    "answer": 1,
+    "explanation": "x * 0.8 = 80 이므로 x = 100입니다.",
+    "category": "수리"
+  },
+  {
+    "type": "fill",
+    "question": "회사에서 신입 사원을 위해 조직 적응을 돕는 교육 과정을 ( )이라고 한다.",
+    "answer": "OJT",
+    "acceptVariants": ["ojt"],
+    "hintText": "영어 약자 3글자로 입력하세요",
+    "explanation": "On the Job Training의 약자입니다.",
+    "category": "취업"
   }
 ]
