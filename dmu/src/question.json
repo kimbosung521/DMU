@@ -559,15 +559,6 @@
   },
   {
     "type": "fill",
-    "question": "취업지원센터는 졸업 ( )년도 1년까지 이용할 수 있다.",
-    "answer": "당해",
-    "acceptVariants": ["당해"],
-    "hintText": "두 글자로 입력하세요",
-    "explanation": "졸업 당해년도 1년까지만 취업지원센터를 이용할 수 있습니다.",
-    "category": "취업"
-  },
-  {
-    "type": "fill",
     "question": "면접에서 과거 경험을 상황(S), 과제(T), 행동(A), 결과(R) 순서로 구조화하는 답변 기법을 ( ) 기법이라고 한다.",
     "answer": "STAR",
     "acceptVariants": ["STAR", "star", "스타"],
@@ -990,7 +981,7 @@
     "type": "fill",
     "question": "회사 내에서 직무를 수행하는 데 필요한 핵심 성과 지표를 ( )라고 한다.",
     "answer": "KPI",
-    "acceptVariants": ["kpi"],
+    "acceptVariants": ["kpi", "KPI"],
     "hintText": "영어 약자 3글자로 입력하세요",
     "explanation": "Key Performance Indicator의 약자입니다.",
     "category": "취업"
@@ -1003,15 +994,6 @@
     "hintText": "소수점 둘째 자리까지 입력하세요",
     "explanation": "원주율 파이(π)의 일반적인 근삿값입니다.",
     "category": "수리"
-  },
-  {
-    "type": "fill",
-    "question": "'어떤 일이 아주 쉬움'을 뜻하는 사자성어는 ( )지간이다.",
-    "answer": "식은죽먹기",
-    "acceptVariants": ["식은죽먹기", "여반장"],
-    "hintText": "다섯 글자로 입력하세요",
-    "explanation": "관용어로는 식은 죽 먹기, 한자로는 여반장이 있습니다.",
-    "category": "언어"
   },
   {
     "type": "ox",
@@ -1051,15 +1033,6 @@
     "answer": 1,
     "explanation": "원칙이나 의견을 굳게 지킨다는 의미입니다.",
     "category": "언어"
-  },
-  {
-    "type": "fill",
-    "question": "주식 시장에서 주가가 하락할 때 나타나는 그래프의 색깔은 ( )색이다.",
-    "answer": "파란",
-    "acceptVariants": ["파란", "파랑", "파란색"],
-    "hintText": "두 글자로 입력하세요",
-    "explanation": "한국 증시 기준으로 상승은 빨강, 하락은 파랑입니다.",
-    "category": "취업"
   },
   {
     "type": "ox",
@@ -1823,7 +1796,7 @@
   },
   {
     "type": "fill",
-    "question": "기업에서 직원을 새로 뽑는 과정을 두 글자로 \n ( )(이)라고 한다.",
+    "question": "기업에서 직원을 새로 뽑는 과정을 두 글자로  ( )(이)라고 한다.",
     "answer": "채용",
     "acceptVariants": ["채용"],
     "hintText": "두 글자로 입력하세요",
