@@ -1204,7 +1204,7 @@
     "answer": "스폰서",
     "acceptVariants": ["스폰서", "후원"],
     "hintText": "세 글자로 입력하세요",
-    "explanation": "스포츠나 문화 예술 분야에서 자주 쓰이는 용어입니다.",
+    "explanation": "스폰서로 스포츠나 문화 예술 분야에서 자주 쓰이는 용어입니다.",
     "category": "취업"
   },
   {
@@ -1295,7 +1295,7 @@
     "answer": "멘토링",
     "acceptVariants": ["멘토링"],
     "hintText": "두 글자로 입력하세요",
-    "explanation": "지도를 주는 쪽은 멘토, 받는 쪽은 멘티입니다.",
+    "explanation": "멘토링으로 지도를 주는 쪽은 멘토, 받는 쪽은 멘티입니다.",
     "category": "취업"
   },
   {
@@ -1730,7 +1730,7 @@
     "answer": "USB",
     "acceptVariants": ["USB", "usb", "유에스비"],
     "hintText": "영어 약자 3글자로 입력하세요",
-    "explanation": "현재는 클라우드에 밀려 사용이 줄었으나 한때 필수품이었습니다.",
+    "explanation": "USB로 현재는 클라우드에 밀려 사용이 줄었으나 한때 필수품이었습니다.",
     "category": "취업"
   },
   {
@@ -1747,15 +1747,6 @@
     "answer": 1,
     "explanation": "일반항 a + (n-1)d = 1 + (9*3) = 28입니다.",
     "category": "수리"
-  },
-  {
-    "type": "fill",
-    "question": "회사의 주인으로서 주식을 보유하고 있는 사람을 ( )라고 한다.",
-    "answer": "주주",
-    "acceptVariants": ["주주"],
-    "hintText": "두 글자로 입력하세요",
-    "explanation": "Stockholder를 뜻합니다.",
-    "category": "취업"
   },
   {
     "type": "ox",
